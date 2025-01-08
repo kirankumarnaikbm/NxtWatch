@@ -1,0 +1,68 @@
+.navbar {
+  color: #000;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar.open {
+  width: 160px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 1.9rem;
+}
+
+.navbar ul li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.nav-bar-con {
+  height: 88vh;
+}
+.contact-logo {
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+  margin-left: 0.68rem;
+}
+
+.main-content ul li {
+  margin-bottom: 0.67rem;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+@media (max-width: 576px) {
+  .navbar {
+    display: none;
+  }
+  .toggle-button {
+    display: none;
+  }
+  .main-content {
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    margin-right: 1.1rem;
+  }
+  .nav-logos-con li {
+    height: 6vh;
+  }
+}

@@ -1,0 +1,120 @@
+.video-card-con {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.video-card-con li {
+  width: 290px;
+  max-width: 345px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.video-t-img {
+  width: 100%;
+  height: 170px;
+}
+.video-card-con li p {
+  margin: 0;
+}
+.profile-t-img {
+  height: 43px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.failure-view-image {
+  width: 60%;
+}
+.no-video-image {
+  width: 60%;
+}
+.banner-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  padding: 2rem;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.banner-close {
+  display: none;
+}
+.s-btn {
+  height: 26px;
+  width: 30x;
+  border: 0px;
+  background-color: #cccccc;
+  cursor: pointer;
+}
+.search-input {
+  background-color: transparent;
+  border: 0px;
+  height: 26px;
+  width: 220px;
+}
+.search-icon {
+  height: 26px;
+  width: 18px;
+}
+.input-con {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  width: 250px;
+}
+.search-input:focus {
+  outline: none;
+}
+.get-it {
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid #383838;
+  color: #383838;
+  background-color: transparent;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.failure-view-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 850px) {
+  .video-card-con li {
+    width: 250px;
+    max-width: 310px;
+    font-size: 13px;
+  }
+  .profilet-img {
+    height: 38px;
+  }
+
+  .videot-img {
+    width: 100%;
+    height: 140px;
+  }
+  .banner-con {
+    padding: 1rem;
+  }
+  .failure-view-con {
+    font-size: 12px;
+  }
+}
